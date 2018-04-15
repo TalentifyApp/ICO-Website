@@ -1,0 +1,587 @@
+.is-rtl {
+    text-align: right;
+}
+
+.is-rtl .text-left {
+    text-align: right !important;
+}
+
+.is-rtl .language-switcher {
+    margin-right: 15px;
+}
+
+.is-rtl .language-switcher:before {
+    right: 0;
+    left: auto;
+}
+
+.is-rtl .language-switcher > a:after {
+    left: -13px;
+    right: auto;
+}
+
+.is-rtl .language-switcher .dropdown-menu {
+    margin-left: -2px;
+}
+
+.is-rtl .navbar-brand {
+    margin-right: 0;
+}
+
+.is-rtl .dropdown-toggle::after {
+    margin-right: 4px;
+}
+
+.is-rtl .navbar .navbar-nav .dropdown-menu {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+.is-rtl .navbar .navbar-nav .dropdown-menu:after {
+    left: auto;
+    right: 20px;
+}
+
+.is-rtl .site-header .navbar-nav > li:last-child {
+    margin-right: 0;
+}
+
+.is-rtl .site-header .navbar-btns {
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+.is-rtl .header-image {
+    margin: 0 -30px 0 -150px;
+}
+
+.is-rtl .page-head-image {
+    position: absolute;
+    max-width: 550px;
+    left: -50px;
+    right: auto;
+    bottom: -125px;
+}
+
+.is-rtl .partner-list-s2 {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.is-rtl .partner-list-s2 li:first-child {
+    text-align: right;
+}
+
+.is-rtl .event-info .event-single-info {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.is-rtl .event-info .event-single-info:before {
+    left: auto;
+    right: 0;
+}
+
+.is-rtl .countdown-box .token-countdown .countdown-time.countdown-time-first:after {
+    display: none;
+}
+
+.is-rtl .countdown-box .token-countdown .countdown-time.countdown-time-last:after {
+    display: block;
+}
+
+.is-rtl .text-block ul:not(.btns) li {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.is-rtl .text-block ul:not(.btns) li:before {
+    left: auto;
+    right: 0;
+}
+
+.is-rtl .accordion .plus-minus {
+    left: 20px;
+    right: auto;
+}
+
+.is-rtl .contact-info {
+    margin: 0 -30px;
+}
+
+.is-rtl .contact-info li .fa {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.is-rtl .contact-info-alt li .fa {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.is-rtl .single-roadmap {
+    padding: 0 25px 30px 0;
+}
+
+.is-rtl .single-roadmap:before {
+    left: auto;
+    right: 0;
+}
+
+.is-rtl .single-roadmap:after {
+    left: auto;
+    right: -14px;
+}
+
+.is-rtl .single-roadmap.roadmap-done:after {
+    left: auto;
+    right: -17px;
+}
+
+.is-rtl .single-roadmap.roadmap-down {
+    left: -95px;
+    padding-top: 85px;
+}
+
+.is-rtl .single-roadmap.roadmap-down.roadmap-done:after {
+    left: auto;
+    right: -19px;
+}
+
+.is-rtl .sidebar-section {
+    margin-right: 35px;
+    margin-left: 0;
+}
+
+.is-rtl .sidebar-widget.category ul li {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.is-rtl .sidebar-widget.category ul li:before {
+    left: auto;
+    right: 0;
+}
+
+.is-rtl .inline-form .input-round {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.is-rtl .inline-form .btn {
+    left: 5px;
+    right: auto;
+}
+
+.is-rtl .footer-subscription {
+    margin-left: 90px;
+    margin-right: -30px;
+}
+
+.is-rtl .footer-subscription .input-round {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.is-rtl .footer-subscription .btn.btn-plane {
+    left: -50px;
+    right: auto;
+}
+
+.is-rtl .search-form input[type="text"] {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.is-rtl .search-form button {
+    left: 1px;
+    right: auto;
+}
+
+.is-rtl .page-pagination li:last-of-type {
+    transform: rotate(-180deg);
+}
+
+.is-rtl .comment-item > div {
+    padding: 30px 30px 20px 40px;
+}
+
+.is-rtl .comment-item > .comment-item {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.is-rtl .comment-content {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+@media (max-width: 575px) {
+    .is-rtl .footer-subscription {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .is-rtl .footer-subscription .input-round {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .is-rtl .footer-subscription .btn.btn-plane {
+        left: 0;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .is-rtl .page-head-image {
+        max-width: 350px;
+        left: -20px;
+        right: auto;
+        bottom: -75px;
+    }
+
+    .is-rtl .single-roadmap {
+        margin-right: 20px;
+    }
+
+    .is-rtl .single-roadmap.roadmap-down {
+        left: 0;
+        padding-top: 0;
+    }
+
+    .is-rtl .site-header .navbar.is-transparent {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .is-rtl .comment-content {
+        padding-right: 0;
+    }
+
+    .is-rtl .comment-item > .comment-item {
+        padding-right: 0;
+    }
+
+    .is-rtl .sidebar-section {
+        margin-right: 0;
+    }
+
+    .is-rtl .page-head-image {
+        max-width: 220px;
+        left: -50px;
+        right: auto;
+        bottom: -40px;
+    }
+}
+
+.is-rtl .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.is-rtl .offset-0 {
+    margin-right: 0;
+}
+
+.is-rtl .offset-1 {
+    margin-right: 8.333333%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-2 {
+    margin-right: 16.666666%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-3 {
+    margin-right: 24.999999%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-4 {
+    margin-right: 33.333332%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-5 {
+    margin-right: 41.666665%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-6 {
+    margin-right: 49.999998%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-7 {
+    margin-right: 58.333331%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-8 {
+    margin-right: 66.666664%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-9 {
+    margin-right: 74.999997%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-10 {
+    margin-right: 83.33333%;
+    margin-left: 0;
+}
+
+.is-rtl .offset-11 {
+    margin-right: 91.666663%;
+    margin-left: 0;
+}
+
+@media (min-width: 576px) {
+    .is-rtl .offset-sm-0 {
+        margin-right: 0;
+    }
+
+    .is-rtl .offset-sm-1 {
+        margin-right: 8.333333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-2 {
+        margin-right: 16.666666%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-3 {
+        margin-right: 24.999999%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-4 {
+        margin-right: 33.333332%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-5 {
+        margin-right: 41.666665%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-6 {
+        margin-right: 49.999998%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-7 {
+        margin-right: 58.333331%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-8 {
+        margin-right: 66.666664%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-9 {
+        margin-right: 74.999997%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-10 {
+        margin-right: 83.33333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-sm-11 {
+        margin-right: 91.666663%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .is-rtl .offset-md-0 {
+        margin-right: 0;
+    }
+
+    .is-rtl .offset-md-1 {
+        margin-right: 8.333333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-2 {
+        margin-right: 16.666666%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-3 {
+        margin-right: 24.999999%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-4 {
+        margin-right: 33.333332%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-5 {
+        margin-right: 41.666665%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-6 {
+        margin-right: 49.999998%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-7 {
+        margin-right: 58.333331%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-8 {
+        margin-right: 66.666664%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-9 {
+        margin-right: 74.999997%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-10 {
+        margin-right: 83.33333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-md-11 {
+        margin-right: 91.666663%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .is-rtl .offset-lg-0 {
+        margin-right: 0;
+    }
+
+    .is-rtl .offset-lg-1 {
+        margin-right: 8.333333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-2 {
+        margin-right: 16.666666%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-3 {
+        margin-right: 24.999999%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-4 {
+        margin-right: 33.333332%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-5 {
+        margin-right: 41.666665%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-6 {
+        margin-right: 49.999998%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-7 {
+        margin-right: 58.333331%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-8 {
+        margin-right: 66.666664%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-9 {
+        margin-right: 74.999997%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-10 {
+        margin-right: 83.33333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-lg-11 {
+        margin-right: 91.666663%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .is-rtl .offset-xl-0 {
+        margin-right: 0;
+    }
+
+    .is-rtl .offset-xl-1 {
+        margin-right: 8.333333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-2 {
+        margin-right: 16.666666%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-3 {
+        margin-right: 24.999999%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-4 {
+        margin-right: 33.333332%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-5 {
+        margin-right: 41.666665%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-6 {
+        margin-right: 49.999998%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-7 {
+        margin-right: 58.333331%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-8 {
+        margin-right: 66.666664%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-9 {
+        margin-right: 74.999997%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-10 {
+        margin-right: 83.33333%;
+        margin-left: 0;
+    }
+
+    .is-rtl .offset-xl-11 {
+        margin-right: 91.666663%;
+        margin-left: 0;
+    }
+}
