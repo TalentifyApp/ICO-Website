@@ -2678,6 +2678,10 @@ select:focus {
     color: #fff;
 }
 
+..site-header .navbar-nav > li > a:hover {
+    color: #7CE7F2;
+}
+
 .site-header .navbar-nav > li.quote-btn {
     margin-top: 23px;
 }
@@ -2977,6 +2981,18 @@ select:focus {
 .header-txt {
     position: relative;
     z-index: 3;
+}
+
+.header-txt h1 {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.lead.color-secondary.animated.fadeInUp {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 .page {

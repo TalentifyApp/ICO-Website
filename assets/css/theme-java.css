@@ -110,7 +110,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar .navbar-nav > li:hover a {
-    color: #41faa4;
+    color: #7CE7F2;
 }
 
 .navbar .navbar-nav > li > a.nav-link.active {
@@ -470,7 +470,7 @@ a:hover, a:focus, a:active {
 }
 
 .social li a:hover {
-    background: #16a3fe;
+    background: #7CE7F2;
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
