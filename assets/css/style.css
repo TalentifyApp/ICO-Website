@@ -269,8 +269,97 @@ a:hover, a:focus, a:active {
     background: #fff;
 }
 
+.second-section {
+    background: #fff;
+}
+
+.second-section h4 {
+    color: #182848;
+}
+
+.second-section p {
+    color: #182848;
+}
+
+.second-section hr {
+    width: 100px;
+    margin-top: 0;
+    border-top: 2px solid #182848;
+}
+
+.second-section .join-us-telegram {
+    color: #182848 !important;
+}
+
+.second-section .fa-paper-plane {
+    color: #182848 !important;
+}
+
+.second-section .download-whitepaper-btn {
+    background: none;
+    background-color: #182848;
+    border: 2px solid #182848;
+}
+
+.second-section .download-whitepaper-btn:hover {
+    background: none;
+    background-color: transparent !important;
+    border: 2px solid #182848;
+    color: #182848 !important;
+}
+
+.second-section .download-whitepaper-btn:before {
+    background: none;
+}
+
+.third-section .download-whitepaper-btn {
+    background: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #182848;
+}
+
+.third-section .download-whitepaper-btn:hover {
+    background: none;
+    background-color: transparent !important;
+    border: 2px solid #fff;
+}
+
+.third-section .download-whitepaper-btn:before {
+    background: none;
+}
+
+.third-section .apply-to-whitelist {
+    background: none !important;
+    background-image: none !important;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.third-section .apply-to-whitelist:hover {
+    background: #fff !important;
+    background-image: none !important;
+    background-color: #fff !important;
+    border: 2px solid #fff;
+    color: #182848;
+}
+
+.third-section .apply-to-whitelist:before {
+    background: none;
+    background-image: none !important;
+}
+
+.third-section .fa-paper-plane {
+    color: #fff !important;
+}
+
+.third-section {
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+}
+
 .io-azure .section-bg-alt {
-    background: #1b30a4;
+    background: #fff;
 }
 
 .section-bg-dark {
@@ -1294,7 +1383,7 @@ hr:last-child, .hr:last-child {
 @media screen and (min-width: 1600px) {
     .section-pad {
         padding-top: 180px;
-        padding-bottom: 180px;
+        padding-bottom: 180px !important;
     }
 
     .section-pad-xs {
@@ -3944,7 +4033,7 @@ select:focus {
 }
 
 .io-azure .text-block p:not(.lead) {
-    color: #7ab9ff;
+    color: #182848;
 }
 
 .io-azure .text-block ul:not(.btns) li {
@@ -5686,7 +5775,7 @@ select:focus {
 
 .footer-particle {
     border-top: 1px solid rgba(22, 164, 253, 0.15);
-    background: #15257b url(../images/footer-bg-azure.png) no-repeat 50% 0/contain !important;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .footer-brand {
@@ -6465,7 +6554,7 @@ select:focus {
 }
 
 .mask-ov-s2:after {
-    background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, #28298a 50%, rgba(13, 66, 178, 0) 80%);
+    background-image: linear-gradient(135deg, rgba(13, 66, 178, 0) 15%, rgba(13, 66, 178, 0) 80%);
 }
 
 .mask-ov-s2:before {
