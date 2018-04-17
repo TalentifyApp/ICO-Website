@@ -2608,7 +2608,7 @@ select:focus {
 }
 
 .navbar .navbar-nav > li > a.nav-link.active {
-    color: #46bdf4;
+    color: #7CE7F2 !important;
     background: transparent;
 }
 
@@ -5760,6 +5760,7 @@ select:focus {
 .social li {
     display: inline-block;
     margin: 0 4px;
+    margin-bottom: 10px;
 }
 
 .social li a {
@@ -5836,8 +5837,8 @@ select:focus {
 
 .footer-subscription .input-round {
     color: #fff;
-    background: #0d44b7;
-    border: 1px solid #0d44b7;
+    background: #182848;
+    border: 1px solid #182848;
     border-radius: 5px;
     line-height: 52px;
     width: 100%;
