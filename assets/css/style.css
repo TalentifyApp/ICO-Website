@@ -693,7 +693,6 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     }
 }
 
-/*! 03.0 - UTILITY */
 img {
     outline: 0;
     border: 0 none;
@@ -1565,10 +1564,9 @@ hr:last-child, .hr:last-child {
     }
 }
 
-/*! 04.0 - COMMON */
 .section-head {
     padding-bottom: 60px;
-    position: relative; /* @v1.1.0 s */ /* @v1.1.0 e */
+    position: relative;
 }
 
 .section-head .section-title {
@@ -1753,7 +1751,7 @@ hr:last-child, .hr:last-child {
 
 @media only screen and (max-width: 480px) {
     .section-head {
-        padding-bottom: 40px; /* @v1.1.0 s */ /* @v1.1.0 e */
+        padding-bottom: 40px;
     }
 
     .section-head .section-title {
@@ -2031,7 +2029,6 @@ hr:last-child, .hr:last-child {
 }
 
 @media only screen and (max-width: 1280px) {
-    /* parallax disable on ipad/iphone */
     .has-parallax {
         background-position: 50% 50% !important;
         background-attachment: scroll !important;
@@ -2926,7 +2923,7 @@ select:focus {
 .header-image {
     position: relative;
     z-index: 3;
-    margin: 0 -80px 0 -30px; /* @v1.1.0 s */ /* @v1.1.0 e */
+    margin: 0 -80px 0 -30px;
 }
 
 .header-image-icon {
@@ -3200,7 +3197,7 @@ select:focus {
 
     .header-image {
         width: 100%;
-        margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */
+        margin: 0 auto;
     }
 
     .header-image-icon {
@@ -3246,7 +3243,7 @@ select:focus {
 
     .header-image {
         width: 100%;
-        margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */
+        margin: 0 auto;
     }
 
     .header-image-icon {
@@ -3308,7 +3305,7 @@ select:focus {
 
     .header-image {
         width: 280px;
-        margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */
+        margin: 0 auto;
     }
 
     .header-image-icon {
@@ -5135,7 +5132,7 @@ select:focus {
 }
 
 .partner-list {
-    margin-bottom: -30px; /* @v1.1.0 s */
+    margin-bottom: -30px;
 }
 
 .partner-list .single-partner {
@@ -5364,7 +5361,7 @@ select:focus {
 .contact-info {
     margin: 0 -30px;
     padding-bottom: 60px;
-    display: flex; /* @v1.1.0 s */ /* @v1.1.0 e */
+    display: flex;
 }
 
 .contact-info li {
@@ -5469,7 +5466,7 @@ select:focus {
     }
 }
 
-.form-message { /* @v1.1.0 s */ /* @v1.1.0 e */
+.form-message {
 }
 
 .form-message .input-field {
@@ -6368,7 +6365,7 @@ select:focus {
 
     .header-image {
         width: 400px;
-        margin: 0 auto; /* @v1.1.0 s */ /* @v1.1.0 e */
+        margin: 0 auto;
     }
 
     .header-image .left-icon {
