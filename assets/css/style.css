@@ -358,6 +358,18 @@ a:hover, a:focus, a:active {
     background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
+.fourth-section h6 {
+    color: #182848 !important;
+}
+
+.fourth-section h2 {
+    color: #182848 !important;
+}
+
+.fourth-section p {
+    color: #182848 !important;
+}
+
 .io-azure .section-bg-alt {
     background: #fff;
 }
@@ -4666,7 +4678,7 @@ select:focus {
 
 .single-roadmap-alt.sra-done:after {
     content: '\f00c';
-    background: #49ea8d !important;
+    background: #182848 !important;
 }
 
 .io-azure .single-roadmap-alt:after {
