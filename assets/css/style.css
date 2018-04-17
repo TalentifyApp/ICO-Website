@@ -370,6 +370,26 @@ a:hover, a:focus, a:active {
     color: #182848 !important;
 }
 
+.fifth-section {
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+}
+
+.sixth-section {
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+}
+
+.seventh-section {
+
+}
+
+.eight-section {
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+}
+
+.ninth-section h6 {
+    color: #182848 !important;
+}
+
 .io-azure .section-bg-alt {
     background: #fff;
 }
@@ -1900,7 +1920,7 @@ hr:last-child, .hr:last-child {
     margin-top: -1px;
     height: 2px;
     width: 160px;
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
     transform: rotate(90deg);
 }
 
@@ -4133,7 +4153,7 @@ select:focus {
 
 .token-section:after {
     content: "";
-    background: linear-gradient(to top, #1b30a4 15%, rgba(13, 66, 178, 0) 100%);
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
     height: 80%;
     width: 100%;
     position: absolute;
