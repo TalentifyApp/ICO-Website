@@ -378,9 +378,14 @@ a:hover, a:focus, a:active {
     background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
-.seventh-section {
-
+.seventh-section h2 {
+    color: #182848 !important;
 }
+
+.seventh-section h6 {
+    color: #182848 !important;
+}
+
 
 .eight-section {
     background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
@@ -2967,7 +2972,7 @@ select:focus {
     background: transparent;
 }
 
-.footer-scetion .language-switcher > a:after {
+.footer-section .language-switcher > a:after {
     top: 0;
 }
 
@@ -2979,6 +2984,10 @@ select:focus {
     border: none;
     transition: all .5s ease;
     background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+}
+
+.footer-logo {
+    width: 50%;
 }
 
 .navbar-toggler:hover {
