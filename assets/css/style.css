@@ -2675,7 +2675,7 @@ select:focus {
     color: #fff;
 }
 
-..site-header .navbar-nav > li > a:hover {
+.site-header .navbar-nav > li > a:hover {
     color: #7CE7F2;
 }
 
@@ -2842,7 +2842,7 @@ select:focus {
 }
 
 .language-switcher .dropdown-item:hover {
-    color: #46bdf4;
+    color: #7CE7F2;
     background: transparent;
 }
 
