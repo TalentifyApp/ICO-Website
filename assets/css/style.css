@@ -951,7 +951,7 @@ hr:last-child, .hr:last-child {
 }
 
 .section-pad.nopb {
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 
 .section-pad.nopt {
@@ -4683,6 +4683,7 @@ select:focus {
     width: calc(100% + 30px);
     height: 1px;
     z-index: 3;
+    background-image: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt:after {
@@ -4703,6 +4704,7 @@ select:focus {
     border: 1px solid transparent;
     background: #10122d;
     z-index: 5;
+    border-color: #7CE7F2 !important;
 }
 
 .single-roadmap-alt.sra-done:after {
@@ -4727,11 +4729,11 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-ctob:after {
-    border-color: #7a0fff;
+    border-color:  linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-ctob h5:before, .single-roadmap-alt.gradiant-ctob h6:before {
-    background: #7a0fff;
+    background:  linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-btoa:before {
@@ -4743,7 +4745,7 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-btoa h5:before, .single-roadmap-alt.gradiant-btoa h6:before {
-    background: #46bdf4;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-atob:before {
@@ -4755,7 +4757,7 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-atob h5:before, .single-roadmap-alt.gradiant-atob h6:before {
-    background: #7a0fff;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-btoc:before {
@@ -4767,7 +4769,7 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-btoc h5:before, .single-roadmap-alt.gradiant-btoc h6:before {
-    background: #2b56f5;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-ctoa:before {
@@ -4779,7 +4781,7 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-ctoa h5:before, .single-roadmap-alt.gradiant-ctoa h6:before {
-    background: #46bdf4;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-atoc:before {
@@ -4791,7 +4793,7 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-atoc h5:before, .single-roadmap-alt.gradiant-atoc h6:before {
-    background: #2b56f5;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt h5, .single-roadmap-alt h6 {
@@ -5776,8 +5778,8 @@ select:focus {
 }
 
 .social li a:hover {
-    background: #7a0fff;
-    color: #fff;
+    background: #fff !important;
+    color: #7CE7F2;
 }
 
 .subscribe-section {
@@ -6575,20 +6577,23 @@ select:focus {
     display: none;
 }
 
-.mask-ov-right {
+.mask-ov-right, .mask-ov-right-2 {
     left: auto;
     right: 0;
 }
 
-.mask-ov-right:after {
+.mask-ov-right:after, .mask-ov-right-2:after {
     right: auto;
     left: 30%;
 }
 
-.mask-ov-right:before {
+.mask-ov-right:before, .mask-ov-right-2:before {
     background-position: 100% 50%;
 }
 
+.mask-ov-right-2 {
+    top:2000px;
+}
 .mask-ov-s2 {
     width: 420px;
     height: 900px;
