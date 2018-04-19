@@ -7465,3 +7465,54 @@ select:focus {
     background: rgba(70, 189, 244, 0.8);
     color: #fff;
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 60%;
+}
+
+/* The Close Button */
+.first-close,
+.second-close,
+.third-close,
+.fourth-close,
+.fifth-close,
+.sixth-close {
+    color: #415EA0;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content p {
+    color: #415EA0;
+    text-align:center;
+}
+.features-box a {
+    color:#fff !important;
+    font-weight: bold;
+    cursor: pointer;
+}
