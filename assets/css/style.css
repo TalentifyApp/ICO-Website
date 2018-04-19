@@ -967,7 +967,7 @@ hr:last-child, .hr:last-child {
 }
 
 .section-pad.nopb {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .section-pad.nopt {
@@ -1405,7 +1405,7 @@ hr:last-child, .hr:last-child {
 }
 
 .no-pb, .pb-no {
-    padding-bottom: 0 !important;
+    padding-bottom: 60px !important;
 }
 
 .no-mg, .mg-no {
@@ -4729,7 +4729,7 @@ select:focus {
     border: 1px solid transparent;
     background: #10122d;
     z-index: 5;
-    border-color: #7CE7F2 !important;
+    border-color: #4b6cb7 !important;
 }
 
 .single-roadmap-alt.sra-done:after {
