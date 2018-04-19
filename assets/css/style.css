@@ -7528,3 +7528,16 @@ select:focus {
 #sixth-modal{
     z-index: 999;
 }
+
+@media only screen and (max-width: 450px) {
+    .col-md-5 {
+
+        text-align: center;
+    }
+
+    .tab-custom-s2 .nav-tabs {
+
+        display: flex;
+        flex-direction: column;
+    }
+}
