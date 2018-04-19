@@ -7516,3 +7516,15 @@ select:focus {
     font-weight: bold;
     cursor: pointer;
 }
+.third-section .container{
+    position: static;
+    z-index: 999;
+}
+#first-modal,
+#second-modal,
+#third-modal,
+#fourth-modal,
+#fifth-modal,
+#sixth-modal{
+    z-index: 999;
+}
