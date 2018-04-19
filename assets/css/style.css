@@ -312,6 +312,23 @@ a:hover, a:focus, a:active {
     background: none;
 }
 
+.second-section .join-us-telegram {
+    background: none;
+    background-color: #fff;
+    border: 2px solid #182848 !important;
+}
+
+.second-section .join-us-telegram:hover {
+    background: none;
+    background-color: #182848 !important;
+    color: #fff !important;
+    border: 2px solid #182848 !important;
+}
+
+.second-section .join-us-telegram:before {
+    background: none;
+}
+
 .third-section .download-whitepaper-btn {
     background: none;
     background-color: #fff;
@@ -385,7 +402,6 @@ a:hover, a:focus, a:active {
 .seventh-section h6 {
     color: #182848 !important;
 }
-
 
 .eight-section {
     background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
@@ -4009,6 +4025,15 @@ select:focus {
     max-width: 100%;
 }
 
+.buttons-section {
+    display: flex;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .btns {
     margin: 0 -15px;
 }
@@ -4729,11 +4754,11 @@ select:focus {
 }
 
 .single-roadmap-alt.gradiant-ctob:after {
-    border-color:  linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+    border-color: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-ctob h5:before, .single-roadmap-alt.gradiant-ctob h6:before {
-    background:  linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
+    background: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(24, 40, 72) 0%, rgb(75, 108, 183) 100%, rgb(75, 108, 183) 100%) !important;
 }
 
 .single-roadmap-alt.gradiant-btoa:before {
@@ -6592,8 +6617,9 @@ select:focus {
 }
 
 .mask-ov-right-2 {
-    top:2000px;
+    top: 2000px;
 }
+
 .mask-ov-s2 {
     width: 420px;
     height: 900px;
