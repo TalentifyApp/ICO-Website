@@ -7545,3 +7545,9 @@ select:focus {
         flex-direction: column;
     }
 }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navbar .navbar-nav > li > a.nav-link {
+        font-size: 10px;
+    }
+}
