@@ -7493,6 +7493,11 @@ select:focus {
     height: 60%;
 }
 
+.modal-content h3 {
+    color: #415EA0;
+    text-align: center;
+}
+
 /* The Close Button */
 .first-close,
 .second-close,
@@ -7509,7 +7514,6 @@ select:focus {
 
 .modal-content p {
     color: #415EA0;
-    text-align:center;
 }
 .features-box a {
     color:#fff !important;
