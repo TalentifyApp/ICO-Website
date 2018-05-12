@@ -3192,6 +3192,10 @@ select:focus {
         right: -50px;
         bottom: -40px;
     }
+
+    #header .mobile-center {
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
