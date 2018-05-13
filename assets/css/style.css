@@ -60,7 +60,7 @@ body.theme-light {
 }
 
 body.io-azure {
-    background: #0d42b2;
+    background: #182848;
 }
 
 body.io-azure .section-pro, body.io-azure .section-pro-alt {
@@ -2999,7 +2999,7 @@ select:focus {
 }
 
 .language-switcher .dropdown-item:hover {
-    color: #7CE7F2;
+    color: #7CE7F2 !important;
     background: transparent;
 }
 
@@ -3598,8 +3598,8 @@ select:focus {
     z-index: -2;
     opacity: 0;
     transition: all .5s ease;
-    background-image: -webkit-linear-gradient(left, #46bdf4 0%, #2b56f5 100%);
-    background-image: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%);
+    background-image: none !important;
+    background-image: none !important;
 }
 
 .btn.btn-alt {
@@ -3734,6 +3734,11 @@ select:focus {
 
 .btn.btn-plane {
     background: #7a0fff;
+}
+
+.btn.btn-plane:hover:before {
+    background-image: none !important;
+    background-color: white !important;
 }
 
 .btn.btn-plane.btn-alt {
@@ -4937,7 +4942,7 @@ select:focus {
 }
 
 .io-azure .team-member {
-    background: #1b30a4;
+    background: #182848;
 }
 
 .team-member .team-photo {
@@ -4996,7 +5001,7 @@ select:focus {
 }
 
 .team-member .team-title {
-    color: #46bdf4;
+    color: #7CE7F2 !important;
     font-size: 13px;
     display: block;
 }
@@ -5359,6 +5364,11 @@ select:focus {
 
 .partner-list-s2 li a {
     display: inline-block;
+}
+
+.partner-list img {
+    width: 70%;
+    margin-bottom: 15px;
 }
 
 .header-partners {
@@ -5925,8 +5935,9 @@ select:focus {
     right: -50px;
     padding: 0 10px;
     min-width: 110px;
-    background: #16a4fd;
+    background: #fff;
     border-radius: 23px;
+    color: #182848;
 }
 
 .footer-subscription .btn.btn-plane:before {
