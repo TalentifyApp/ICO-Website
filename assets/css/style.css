@@ -7495,11 +7495,13 @@ select:focus {
     margin-top: 70px;
     margin-bottom: 70px;
     height: 60%;
+    overflow-y: scroll;
 }
 
 .modal-content h3 {
     color: #415EA0;
     text-align: center;
+    padding-top: 20px;
 }
 
 /* The Close Button */
@@ -7510,10 +7512,12 @@ select:focus {
 .fifth-close,
 .sixth-close {
     color: #415EA0;
-    float: right;
+    text-align: right;
     font-size: 40px;
     font-weight: bold;
+    height: 20px;
     cursor: pointer;
+    line-height: 0.1;
 }
 
 .modal-content p {
