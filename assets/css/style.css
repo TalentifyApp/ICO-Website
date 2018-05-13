@@ -385,6 +385,7 @@ a:hover, a:focus, a:active {
 
 .fourth-section p {
     color: #182848 !important;
+    text-align: left;
 }
 
 .fifth-section {
@@ -787,6 +788,20 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 
     .res-m-btm {
         margin-bottom: 30px;
+    }
+
+    .header-image img:first-child {
+        display: none;
+    }
+
+    .header-image {
+        text-align: center;
+    }
+
+    .header-image-icon.left-icon {
+        height: 200px !important;
+        width: 200px !important;
+        position: initial;
     }
 }
 
@@ -2995,11 +3010,11 @@ select:focus {
 .navbar-toggler {
     margin-right: 15px;
     padding: 0 5px;
-    color: #fff;
+    color: #182848 !important;
     border-radius: 2px;
     border: none;
     transition: all .5s ease;
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: #fff !important;
 }
 
 .footer-logo {
@@ -3007,7 +3022,8 @@ select:focus {
 }
 
 .navbar-toggler:hover {
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: #182848 !important;
+    color: #fff !important;
 }
 
 .navbar-toggler:focus {
@@ -3130,6 +3146,27 @@ select:focus {
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 1px;
+}
+
+.join-us a {
+    background: url('../images/telegram_chat.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    right: 45px;
+    bottom: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.join-us a span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 90px;
+    color: #182848;
 }
 
 .lead.color-secondary.animated.fadeInUp {
@@ -3442,7 +3479,7 @@ select:focus {
 
 @media only screen and (max-width: 480px) {
     .banner {
-        min-height: 665px;
+        min-height: 765px;
     }
 
     .banner.banner-full {
