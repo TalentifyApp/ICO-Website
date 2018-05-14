@@ -2224,7 +2224,7 @@ hr:last-child, .hr:last-child {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: #fff;
+    color: #182848;
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
@@ -2235,7 +2235,7 @@ hr:last-child, .hr:last-child {
 
 .tab-custom .nav-tabs li > a:hover {
     border-bottom-color: transparent;
-    color: #46bdf4;
+    color: #7CE7F2 !important;
 }
 
 .tab-custom .nav-tabs li > a img {
@@ -2245,8 +2245,8 @@ hr:last-child, .hr:last-child {
 }
 
 .tab-custom .nav-tabs li > a.active, .tab-custom .nav-tabs li > a.active:hover, .tab-custom .nav-tabs li > a.active:focus, .tab-custom .nav-tabs li > a.active:hover, .tab-custom .nav-tabs li > a.active:focus {
-    border-bottom-color: #46bdf4;
-    color: #fff;
+    border-bottom-color: #7CE7F2 !important;
+    color: #182848;
     background: transparent;
 }
 
@@ -5422,9 +5422,9 @@ select:focus {
 }
 
 .accordion .card {
-    background-color: #171a40;
+    background-color: #ebf3fc;
     border: none;
-    border-bottom: 1px solid #10122d;
+    border-bottom: 1px solid #ebf3fc;
     border-radius: 0;
 }
 
@@ -5437,7 +5437,7 @@ select:focus {
 }
 
 .accordion .card .card-header a {
-    color: #fff;
+    color: #182848;
     font-weight: 500;
     padding: 15px 30px;
     display: block;
@@ -5446,8 +5446,8 @@ select:focus {
 }
 
 .accordion .card .card-header a.collapsed {
-    color: #fff;
-    background-color: #10122d;
+    color: #182848;
+    background-color: #ebf3fc;
 }
 
 .accordion .card .card-header a:hover {
@@ -5484,6 +5484,7 @@ select:focus {
     height: 100%;
     display: block;
     font-size: 18px;
+    color: #182848;
 }
 
 .accordion .plus-minus:hover {
@@ -5534,6 +5535,18 @@ select:focus {
 
 .panel-group:last-child {
     margin-bottom: 0;
+}
+
+#faq h2 {
+    color: #182848;
+}
+
+#faq h6 {
+    color: #182848;
+}
+
+#faq p {
+    color: #182848;
 }
 
 .single-faq {
