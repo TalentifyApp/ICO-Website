@@ -7615,8 +7615,14 @@ select:focus {
     }
 }
 
-@media (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 991px) and (max-width: 1199px) {
     .navbar .navbar-nav > li > a.nav-link {
-        font-size: 10px;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar .navbar-nav > li > a.nav-link {
+        font-size: 12px;
     }
 }
