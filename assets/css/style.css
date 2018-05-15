@@ -5575,6 +5575,52 @@ select:focus {
     color: #637097;
 }
 
+#contact h6,
+#contact h2 {
+    color: #182848;
+}
+
+#contact p,
+#contact span {
+    color: #182848;
+}
+
+.section-pro .contact-info-alt li .fa {
+    color: #182848 !important;
+}
+
+.contact-info-alt li .fa {
+    background: #182848 !important;
+    background-image: none;
+}
+
+#contact input {
+    color: #182848 !important;
+    border-bottom-color: #182848 !important;
+}
+
+#contact textarea {
+    color: #182848 !important;
+    border-bottom-color: #182848 !important;
+}
+
+#contact label  {
+    color: #182848 !important;
+}
+
+#contact .contact-form-btn {
+    color: #fff !important;
+    background: #182848 !important;
+    background-image: none !important;
+    border: 2px solid #182848 !important;
+}
+
+#contact .contact-form-btn:hover {
+    color: #182848 !important;
+    background: #fff !important;
+    border: 2px solid #182848 !important;
+}
+
 .contact-section {
     overflow: hidden;
 }
