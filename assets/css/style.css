@@ -4191,6 +4191,7 @@ select:focus {
 
 .features-box img {
     max-width: 300px;
+    width: 40%;
 }
 
 .features-box h5 {
