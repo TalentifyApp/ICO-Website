@@ -4292,7 +4292,7 @@ select:focus {
 }
 
 .io-azure .countdown-box {
-    background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background: #182848;
 }
 
 .io-azure .countdown-box .token-countdown .countdown-text {
@@ -5370,6 +5370,10 @@ select:focus {
 .partner-list img {
     width: 70%;
     margin-bottom: 15px;
+}
+
+.partner-list .soffos-partner img {
+    width: 100%;
 }
 
 .header-partners {
