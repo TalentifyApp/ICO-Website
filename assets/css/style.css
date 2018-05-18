@@ -7677,3 +7677,12 @@ select:focus {
         font-size: 12px;
     }
 }
+
+#tokenSale {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.section-token-charts {
+    padding-top: 80px;
+}
