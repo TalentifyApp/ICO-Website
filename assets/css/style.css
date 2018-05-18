@@ -7682,3 +7682,7 @@ select:focus {
 .section-token-charts {
     padding-top: 80px;
 }
+
+.ecosystem-image {
+    max-width: 140%;
+}
