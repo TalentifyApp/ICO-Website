@@ -9,7 +9,7 @@ $emailTO = $emailBCC =  $emailCC = array(); $formEmail = '';
 $sitename = 'DiscoverBlockchain';
 
 ### Enter your email addresses: @required
-$emailTO[] = array( 'email' => 'info@discoverblockchain.io', 'name' => 'Discover Blockchain' );
+$emailTO[] = array( 'email' => 'info@discoverblockchain.io', 'name' => 'DiscoverBlockchain' );
 
 ### Enable bellow parameters & update your BCC email if require.
 //$emailBCC[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' );
@@ -21,7 +21,7 @@ $emailTO[] = array( 'email' => 'info@discoverblockchain.io', 'name' => 'Discover
 $subject = "Contact Us" . ' - ' . $sitename; 
 
 ### If your did not recive email after submit form please enable below line and must change to your correct domain name. eg. noreply@example.com
-//$formEmail = 'noreply@yoursite.com';
+$formEmail = 'info@discoverblockchain.io';
 
 ### Success Messages
 $msg_success = "We have <strong>successfully</strong> received your message. We'll get back to you soon.";

@@ -21,7 +21,7 @@ $emailTO[] = array( 'email' => 'info@discoverblockchain.io', 'name' => 'Discover
 $subject = "Subscribtion Notification" . ' - ' . $sitename; 
 
 ### If your did not recive email after submit form please enable below line and must change to your correct domain name. eg. noreply@example.com
-//$formEmail = 'noreply@yoursite.com';
+$formEmail = 'info@discoverblockchain.io';
 
 ### Success Messages
 $msg_success = "<strong>Thank you</strong> for Subscribing our update.";
