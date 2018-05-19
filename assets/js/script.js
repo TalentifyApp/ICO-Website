@@ -8,10 +8,12 @@
     if (!("ontouchstart" in document.documentElement)) {
         $body_m.addClass("no-touch");
     }
+
     // Get Window Width
     function winwidth() {
         return $win.width();
     }
+
     var wwCurrent = winwidth();
     $win.on('resize', function () {
         wwCurrent = winwidth();
@@ -479,6 +481,8 @@ var modal3 = document.getElementById('third-modal');
 var modal4 = document.getElementById('fourth-modal');
 var modal5 = document.getElementById('fifth-modal');
 var modal6 = document.getElementById('sixth-modal');
+var signup = document.getElementById('signup-modal');
+var signin = document.getElementById('signin-modal');
 
 // Get the button that opens the modal
 var btn1 = document.getElementById("first-button");
@@ -487,6 +491,8 @@ var btn3 = document.getElementById("third-button");
 var btn4 = document.getElementById("fourth-button");
 var btn5 = document.getElementById("fifth-button");
 var btn6 = document.getElementById("sixth-button");
+var signupBtn = document.getElementById('signupBtn');
+var signinBtn = document.getElementById('signinBtn');
 
 // Get the <span> element that closes the modal
 var span1 = document.getElementsByClassName("first-close")[0];
@@ -495,14 +501,16 @@ var span3 = document.getElementsByClassName("third-close")[0];
 var span4 = document.getElementsByClassName("fourth-close")[0];
 var span5 = document.getElementsByClassName("fifth-close")[0];
 var span6 = document.getElementsByClassName("sixth-close")[0];
+var span7 = document.getElementsByClassName("seventh-close")[0];
+var span8 = document.getElementsByClassName("eight-close")[0];
 
 // When the user clicks the button, open the modal 
 btn1.onclick = function () {
     modal1.style.display = "block";
-}
+};
 btn2.onclick = function () {
     modal2.style.display = "block";
-}
+};
 btn3.onclick = function () {
     modal3.style.display = "block";
 }
@@ -514,6 +522,12 @@ btn5.onclick = function () {
 }
 btn6.onclick = function () {
     modal6.style.display = "block";
+}
+signupBtn.onclick = function () {
+    signup.style.display = "block";
+}
+signinBtn.onclick = function () {
+    signin.style.display = "block";
 }
 // When the user clicks on <span> (x), close the modal
 span1.onclick = function () {
@@ -534,26 +548,38 @@ span5.onclick = function () {
 span6.onclick = function () {
     modal6.style.display = "none";
 }
+span7.onclick = function () {
+    signup.style.display = "none";
+}
+span8.onclick = function () {
+    signin.style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
     if (event.target == modal1) {
         modal1.style.display = "none";
     }
-     if (event.target == modal2) {
+    if (event.target == modal2) {
         modal2.style.display = "none";
     }
-     if (event.target == modal3) {
+    if (event.target == modal3) {
         modal3.style.display = "none";
     }
-     if (event.target == modal4) {
+    if (event.target == modal4) {
         modal4.style.display = "none";
     }
-     if (event.target == modal5) {
+    if (event.target == modal5) {
         modal5.style.display = "none";
     }
-     if (event.target == modal6) {
+    if (event.target == modal6) {
         modal6.style.display = "none";
+    }
+    if (event.target == signup) {
+        signup.style.display = "none";
+    }
+    if (event.target == signin) {
+        signin.style.display = "none";
     }
 }
 

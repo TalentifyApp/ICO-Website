@@ -820,6 +820,14 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     h1, .h1 {
         font-size: 2.1em;
     }
+
+    .ecosystem-image {
+        max-width: 100% !important;
+    }
+
+    .modal-content {
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4109,8 +4117,16 @@ select:focus {
         margin: 0 -3px;
     }
 
+    .buttons-section {
+        margin: 0 -15px !important;
+    }
+
     .btns li {
         margin: 10px 3px;
+    }
+
+    #solution .download-whitepaper-btn {
+        min-width: 160px !important;
     }
 }
 
@@ -5605,7 +5621,7 @@ select:focus {
     border-bottom-color: #182848 !important;
 }
 
-#contact label  {
+#contact label {
     color: #182848 !important;
 }
 
@@ -7589,8 +7605,8 @@ select:focus {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -7612,13 +7628,23 @@ select:focus {
     padding-top: 20px;
 }
 
+#signup-modal .modal-content {
+    text-align: center;
+}
+
+#signin-modal .modal-content {
+    text-align: center;
+}
+
 /* The Close Button */
 .first-close,
 .second-close,
 .third-close,
 .fourth-close,
 .fifth-close,
-.sixth-close {
+.sixth-close,
+.seventh-close,
+.eight-close {
     color: #415EA0;
     text-align: right;
     font-size: 40px;
@@ -7631,21 +7657,26 @@ select:focus {
 .modal-content p {
     color: #415EA0;
 }
+
 .features-box a {
-    color:#fff !important;
+    color: #fff !important;
     font-weight: bold;
     cursor: pointer;
 }
-.third-section .container{
+
+.third-section .container {
     position: static;
     z-index: 999;
 }
+
 #first-modal,
 #second-modal,
 #third-modal,
 #fourth-modal,
 #fifth-modal,
-#sixth-modal{
+#sixth-modal,
+#signup-modal,
+#signin-modal {
     z-index: 999;
 }
 
