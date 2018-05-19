@@ -7717,3 +7717,31 @@ select:focus {
 .ecosystem-image {
     max-width: 140%;
 }
+
+#blogs {
+    background: #fff !important;
+}
+
+#blogs h2 {
+    color: #182848;
+}
+
+#blogs .blog-texts {
+    background: #182848 !important;
+}
+
+#blogs .blog-meta a {
+    color: #7CE7F2 !important;
+}
+
+#blogs .blog-title a:hover {
+    color: #7CE7F2 !important;
+}
+
+#blogs .btn.btn-more {
+    color: #182848;
+}
+
+#contact {
+    border-top: 2px solid #182848;
+}

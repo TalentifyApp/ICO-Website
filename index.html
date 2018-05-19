@@ -66,6 +66,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/theme-java.css?ver=111">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
           integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css?1526650694">
 </head>
 
 <body class="theme-dark io-azure" data-spy="scroll" data-target="#mainnav" data-offset="80">
@@ -112,7 +113,8 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#team">TEAM</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#partners">PARTNERS</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#media">MEDIA</a></li>
+                    <!--<li class="nav-item"><a class="nav-link menu-link" href="#media">MEDIA</a></li>-->
+                    <li class="nav-item"><a class="nav-link menu-link" href="#blogs">BLOG</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">CONTACT</a></li>
                 </ul>
                 <ul class="navbar-nav navbar-btns animated remove-animation" data-animate="fadeInDown"
@@ -207,18 +209,72 @@
             <div id="signup-modal" class="modal">
                 <div class="modal-content">
                     <span class="seventh-close">&times;</span>
-                    <h3>Signing up for Crowdsale will be available SOON</h3>
-                    <p>Sign up option for all users will be available soon!</p>
-                    <p>Subscribe for our news, updates and notifications, by clicking on <a href="">Subscribe</a> button</p>
+                    <h3>Signing up for Crowdsale will be available soon!</h3>
+                    <p>Subscribe for our news, updates and notifications, by clicking on our Subscribe button.</p>
+                    <div class="email-octopus-form-wrapper">
+                        <p class="email-octopus-success-message" style="color: #182848"></p>
+                        <p class="email-octopus-error-message" style="color: #FF0000"></p>
+                        <form method="post"
+                              action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
+                              class="email-octopus-form">
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">Your Email address</label>
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="email" placeholder="">
+                            </div>
+                            <div class="email-octopus-form-row-consent">
+                                <input type="checkbox" id="consent" name="consent">
+                                <label for="consent" style="color: #182848">I would like to receive DiscoverBlockchain weekly newsletter and special offers via email.</label>
+                            </div>
+                            <div class="email-octopus-form-row-hp" aria-hidden="true">
+                                <!-- Do not remove this field, otherwise you risk bot sign-ups -->
+                                <input type="text" name="hpf0e47811-5ac4-11e8-a3c9-06b79b628af2"
+                                       tabindex="-1"
+                                       autocomplete="nope">
+                            </div>
+                            <div class="email-octopus-form-row-subscribe">
+                                <input type="hidden"
+                                       name="successRedirectUrl"
+                                       value="">
+                                <button type="submit" style="color: #fff;font-weight: 500;background: none; border-radius: 4px;background-color: #182848;border: 2px solid #182848;">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 
             <div id="signin-modal" class="modal">
                 <div class="modal-content">
                     <span class="eight-close">&times;</span>
-                    <h3>Signing in for Crowdsale will be available SOON</h3>
-                    <p>Sign in option for all users will be available soon!</p>
-                    <p>Subscribe for our news, updates and notifications by clicking on <a href="">Subscribe</a> button</p>
+                    <h3>Signing in for Crowdsale will be available soon!</h3>
+                    <p>Subscribe for our news, updates and notifications by clicking on our Subscribe button.</p>
+                    <div class="email-octopus-form-wrapper">
+                        <p class="email-octopus-success-message" style="color: #182848"></p>
+                        <p class="email-octopus-error-message" style="color: #FF0000"></p>
+                        <form method="post"
+                              action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
+                              class="email-octopus-form">
+                            <div class="email-octopus-form-row">
+                                <label for="field_1" style="color: #182848">Your Email address</label>
+                                <input id="field_1" name="embedded_form_subscription[field_1]" type="email" placeholder="">
+                            </div>
+                            <div class="email-octopus-form-row-consent">
+                                <input type="checkbox" id="consent2" name="consent2">
+                                <label for="consent2" style="color: #182848">I would like to receive DiscoverBlockchain weekly newsletter and special offers via email.</label>
+                            </div>
+                            <div class="email-octopus-form-row-hp" aria-hidden="true">
+                                <!-- Do not remove this field, otherwise you risk bot sign-ups -->
+                                <input type="text" name="hpf0e47811-5ac4-11e8-a3c9-06b79b628af2"
+                                       tabindex="-1"
+                                       autocomplete="nope">
+                            </div>
+                            <div class="email-octopus-form-row-subscribe">
+                                <input type="hidden"
+                                       name="successRedirectUrl"
+                                       value="">
+                                <button type="submit" style="color: #fff;font-weight: 500;background: none; border-radius: 4px;background-color: #182848;border: 2px solid #182848;">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2082,6 +2138,54 @@
 </div>
 <!-- Ninth Section -->
 <!-- Tenth Section -->
+<div class="section section-pad section-bg-dark blog-section" id="blogs">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <div class="section-head">
+                    <h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">BLOG
+                        <span>News</span>
+                    </h2>
+                </div>
+            </div>
+        </div><!-- .row -->
+        <div class="blog-list">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4 col-sm-8 offset-sm-2">
+                    <div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+                        <div class="blog-photo"><a
+                                href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"><img
+                                src="./images/blog-post-1.png" alt="blog-photo"></a></div>
+                        <div class="blog-texts">
+                            <ul class="blog-meta">
+                                <li>
+                                    <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f">14
+                                        May, 2018</a></li>
+                                <li>
+                                    <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f">DiscoverBlockchain</a>
+                                </li>
+                            </ul>
+                            <h5 class="blog-title"><a
+                                    href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f">Introducing
+                                Discover Blockchain: A network for Education, Recruitment, Research and Development</a>
+                            </h5>
+                            <p>There is no question that the initial hype around blockchain — a database that’s
+                                validated by a wider community rather than a central authority — has evolved...</p>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .blog-list -->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <a href="https://medium.com/@d_blockchain" class="btn btn-more">Read All News <em
+                        class="ti ti-angle-right"></em></a>
+            </div>
+        </div>
+    </div><!-- .container -->
+</div>
+<!-- Tenth Section -->
+<!-- Eleventh Section -->
 <div class="section section-pad section-bg  section-pro contact-section" id="contact">
     <div class="container">
         <div class="row text-center">
@@ -2128,7 +2232,7 @@
     </div><!-- .container  -->
     <div class="mask-ov-right mask-ov-s6"></div><!-- .mask overlay -->
 </div>
-<!-- Tenth Section -->
+<!-- Eleventh Section -->
 <!-- End Section -->
 <div class="section footer-particle section-pad-sm section-bg-dark footer-section">
     <div class="container">
@@ -2202,7 +2306,8 @@
                     <li><a href="#team" class="menu-link">TEAM</a></li>
                     <li><a href="#faq" class="menu-link">FAQ</a></li>
                     <li><a href="#partners" class="menu-link">PARTNERS</a></li>
-                    <li><a href="#media" class="menu-link">MEDIA</a></li>
+                    <!--<li><a href="#media" class="menu-link">MEDIA</a></li>-->
+                    <li><a href="#blogs" class="menu-link">BLOG</a></li>
                     <li><a href="#contact" class="menu-link">CONTACT</a></li>
                 </ul>
             </div>
@@ -2259,5 +2364,6 @@
 <!-- JavaScript (include all script here) -->
 <script src="./assets/js/jquery.bundle.js?ver=111"></script>
 <script src="./assets/js/script.js?ver=111"></script>
+<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1526650694"></script>
 </body>
 </html>
