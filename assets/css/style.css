@@ -7720,30 +7720,54 @@ select:focus {
     max-width: 140%;
 }
 
-#blogs {
+#news {
     background: #fff !important;
 }
 
-#blogs h2 {
+#news h2 {
     color: #182848;
 }
 
-#blogs .blog-texts {
+#news .blog-texts {
     background: #182848 !important;
 }
 
-#blogs .blog-meta a {
+#news .blog-meta a {
     color: #7CE7F2 !important;
 }
 
-#blogs .blog-title a:hover {
+#news .blog-title a:hover {
     color: #7CE7F2 !important;
 }
 
-#blogs .btn.btn-more {
+#news .btn.btn-more {
     color: #182848;
 }
 
 #contact {
     border-top: 2px solid #182848;
+}
+
+#news .social-section {
+    padding-top: 80px;
+}
+
+.section.section-pad.section-bg-dark.blog-section {
+    padding-top: 80px !important;
+    padding-bottom: 60px !important;
+}
+
+.section.section-pad.section-bg.section-pro.contact-section.has-maskbg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.section.footer-particle.section-pad-sm.section-bg-dark.footer-section {
+    padding-top: 70px !important;
+    padding-bottom: 40px !important;
+}
+
+#partners {
+    padding-top: 100px !important;
+    padding-bottom: 80px !important;
 }
