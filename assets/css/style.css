@@ -3704,6 +3704,7 @@ select:focus {
     color: #182848 !important;
     background: #fff !important;
     border: 2px solid #fff;
+    padding: 0 15px !important;
 }
 
 .buy-tokens-btn:hover {
@@ -3724,6 +3725,7 @@ select:focus {
     color: #fff !important;
     background: transparent !important;
     border: 2px solid #fff;
+    padding: 0 15px !important;
 }
 
 .whitepaper-btn:hover {
