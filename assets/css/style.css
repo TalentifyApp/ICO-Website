@@ -3803,6 +3803,7 @@ select:focus {
     font-weight: 500;
     letter-spacing: 0.1em;
     color: #fff;
+    font-size: 18px;
 }
 
 .btn.btn-simple:before {
