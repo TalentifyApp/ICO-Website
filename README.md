@@ -1,2 +1,2 @@
-# ICO-Website
-Discover Blockchain ICO Website - https://discoverblockchain.io
+# DiscoverBlockchain-Project-ICO-Website
+Discover Blockchain Project & ICO Website - https://discoverblockchain.io
