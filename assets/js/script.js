@@ -158,6 +158,26 @@
         });
     }
 
+    // Partner logos
+    $(".owl-carousel.partners-carousel").owlCarousel({
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        autoplay: true,
+        loop: true,
+        margin: 10,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            599: {
+                items: 4
+            }
+        }
+    });
+
     // Count Down
     var $count_token = $('.token-countdown');
     if ($count_token.length > 0) {
