@@ -4111,6 +4111,14 @@ select:focus {
         padding: 0 15px;
     }
 
+    .second-section .join-us-telegram {
+        padding: 0 6px !important;
+    }
+
+    .second-section .download-whitepaper-btn {
+        padding: 0 6px !important;
+    }
+
     .btn-img {
         max-width: 110px;
     }
