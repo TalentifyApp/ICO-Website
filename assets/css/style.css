@@ -4394,6 +4394,15 @@ select:focus {
 .countdown-box .icon-list li {
     display: inline-block;
     margin: 0 5px;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.icon-list li img {
+    height: 32px;
+    width:32px;
+    object-fit: contain;
 }
 
 .countdown-box .icon-list li .fa {
