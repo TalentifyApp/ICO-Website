@@ -4339,13 +4339,13 @@ select:focus {
     padding-right: 40px;
     -ms-border-radius: 19px;
     border-radius: 19px;
-    background-image: linear-gradient(to right, #340075 0%, #0d9ee0 100%);
+    /*background-image: linear-gradient(to right, #340075 0%, #0d9ee0 100%); */
 }
 
 .io-azure .countdown-box .btn.btn-alt:before {
     -ms-border-radius: 19px;
     border-radius: 19px;
-    background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%);
+   /* background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); */
 }
 
 .countdown-box h6 {
@@ -7809,4 +7809,11 @@ select:focus {
 
 .countdown-timer .countdown-title {
     margin-bottom: 20px;
+}
+
+.btn.btn-alt {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 4px !important;
 }
