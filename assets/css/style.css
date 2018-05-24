@@ -803,6 +803,14 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
         width: 200px !important;
         position: initial;
     }
+
+    ul.social {
+        text-align: center;
+    }
+
+    .countdown-box.countdown-header {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2886,7 +2894,7 @@ select:focus {
 }
 
 .site-header .is-transparent + .banner .banner-content {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .site-header .navbar-brand {
@@ -7781,4 +7789,24 @@ select:focus {
 #partners {
     padding-top: 100px !important;
     padding-bottom: 80px !important;
+}
+
+.countdown-box.countdown-header {
+    background: transparent !important;
+}
+
+.countdown-text {
+    color: #fff !important;
+}
+
+.countdown-time {
+    font-size: 36px !important;
+}
+
+.countdown-box {
+    margin-left: -70px;
+}
+
+.countdown-timer .countdown-title {
+    margin-bottom: 20px;
 }
