@@ -4409,6 +4409,28 @@ select:focus {
     padding-top: 10px;
 }
 
+.icon-list {
+    margin-top: 5px !important;
+}
+
+.fiat-currency-icons li img {
+    height: 33px;
+    width: 32px;
+    margin-top: -3px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.fiat-currency-icons li img:last-child {
+    width: 50px;
+    height: 31px;
+    margin-top: -2px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
 .countdown-box .icon-list li .fa {
     color: #8284a5;
     font-size: 18px;
