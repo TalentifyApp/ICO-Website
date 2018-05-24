@@ -4349,7 +4349,7 @@ select:focus {
 .io-azure .countdown-box .btn.btn-alt:before {
     -ms-border-radius: 19px;
     border-radius: 19px;
-   /* background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); */
+    /* background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); */
 }
 
 .countdown-box h6 {
@@ -7679,7 +7679,7 @@ select:focus {
     margin-top: 70px;
     margin-bottom: 70px;
     height: 60%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .modal-content h3 {
@@ -7696,6 +7696,10 @@ select:focus {
     text-align: center;
 }
 
+#join-whitelist-modal .modal-content {
+    text-align: center;
+}
+
 /* The Close Button */
 .first-close,
 .second-close,
@@ -7704,7 +7708,8 @@ select:focus {
 .fifth-close,
 .sixth-close,
 .seventh-close,
-.eight-close {
+.eight-close,
+.ninth-close {
     color: #415EA0;
     text-align: right;
     font-size: 40px;
@@ -7736,7 +7741,8 @@ select:focus {
 #fifth-modal,
 #sixth-modal,
 #signup-modal,
-#signin-modal {
+#signin-modal,
+#join-whitelist-modal {
     z-index: 999;
 }
 
