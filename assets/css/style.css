@@ -836,6 +836,10 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     .modal-content {
         width: 90% !important;
     }
+
+    .lead.color-secondary.animated.fadeInUp {
+        letter-spacing: initial !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
