@@ -2275,18 +2275,18 @@
                 </ul>
             </div><!-- .col  -->
             <div class="col-lg-5">
-                <form id="contact-form" class="form-message text-left" action="https://formspree.io/contact@discoverblockchain.io" method="post">
+                <form name="contactform" method="post" action="./assets/form/send_form_email.php" id="contact-form" class="form-message text-left">
                     <div class="form-results"></div>
                     <div class="input-field">
-                        <input name="contact-name" type="text" class="input-line required">
+                        <input name="name" type="text" class="input-line required">
                         <label class="input-title">Your Name</label>
                     </div>
                     <div class="input-field">
-                        <input name="contact-email" type="email" class="input-line required email">
+                        <input name="email" type="email" class="input-line required email">
                         <label class="input-title">Your Email</label>
                     </div>
                     <div class="input-field">
-                        <textarea name="contact-message" class="txtarea input-line required"></textarea>
+                        <textarea name="comments" class="txtarea input-line required"></textarea>
                         <label class="input-title">Your Message</label>
                     </div>
                     <input type="text" class="d-none" name="form-anti-honeypot" value="">
