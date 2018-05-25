@@ -7863,3 +7863,7 @@ select:focus {
     border: 2px solid #fff !important;
     border-radius: 4px !important;
 }
+
+.telegram-footer-btn em  {
+    color: #fff !important;
+}
