@@ -263,7 +263,7 @@
             return true;
         }
         // ContactForm
-        if (contactForm.length > 0) {
+        /* if (contactForm.length > 0) {
             var selectRec = contactForm.find('select.required'),
                 qf_results = contactForm.find('.form-results');
             contactForm.validate({
@@ -288,7 +288,7 @@
             selectRec.on('change', function () {
                 $(this).valid();
             });
-        }
+        }*/
         // SubscribeForm
         if (subscribeForm.length > 0) {
             var sf_results = subscribeForm.find('.subscribe-results');
