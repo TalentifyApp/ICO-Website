@@ -2278,20 +2278,20 @@
                 <form name="contactform" method="post" action="./assets/form/send_form_email.php" id="contact-form" class="form-message text-left">
                     <div class="form-results"></div>
                     <div class="input-field">
-                        <input name="name" type="text" class="input-line required">
+                        <input name="Name" id="Name" type="text" class="input-line required">
                         <label class="input-title">Your Name</label>
                     </div>
                     <div class="input-field">
-                        <input name="email" type="email" class="input-line required email">
+                        <input name="Email" id="Email" type="email" class="input-line required email">
                         <label class="input-title">Your Email</label>
                     </div>
                     <div class="input-field">
-                        <textarea name="comments" class="txtarea input-line required"></textarea>
+                        <textarea name="Message" rows="20" cols="20" id="Message" class="txtarea input-line required"></textarea>
                         <label class="input-title">Your Message</label>
                     </div>
                     <input type="text" class="d-none" name="form-anti-honeypot" value="">
                     <div class="input-field">
-                        <input type="submit" value="Submit" class="btn contact-form-btn">
+                        <input type="submit" name="submit" value="Submit" class="btn contact-form-btn">
                     </div>
                 </form>
             </div><!-- .col  -->
