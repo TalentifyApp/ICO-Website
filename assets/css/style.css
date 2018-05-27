@@ -840,6 +840,10 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     .lead.color-secondary.animated.fadeInUp {
         letter-spacing: initial !important;
     }
+
+    .fb_iframe_widget {
+        padding-top: 80px !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
