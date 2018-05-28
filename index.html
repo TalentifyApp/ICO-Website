@@ -66,6 +66,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
           integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css?1526650694">
+    <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css?1527184850">
 </head>
 <body class="theme-dark io-azure" data-spy="scroll" data-target="#mainnav" data-offset="80">
 <div id="fb-root"></div>
@@ -203,19 +204,26 @@
                         <div class="col-12">
                             <div class="countdown-box countdown-header text-center">
                                 <div class="countdown-timer">
-                                    <div class="countdown-title">Our Private Pre-Sale (Phase 1) Starts in</div>
+                                    <div class="countdown-title">Join our Whitelist in:</div>
                                     <div class="token-countdown d-flex align-content-stretch"
                                          data-date="2018/07/01"></div>
                                 </div>
-                                <a href="#" class="btn btn-alt btn-sm">JOIN OUR WHITELIST</a>
+                                <a href="#" class="btn btn-alt btn-sm" id="joinWhitelistBtn">JOIN OUR WHITELIST</a>
+                                <div class="payment-options-text">We accept</div>
                                 <ul class="icon-list">
-                                    <li><img src="assets/images/crypto-icons/bitcoin.png"></li>
-                                    <li><img src="assets/images/crypto-icons/ethereum.png"></li>
-                                    <li><img src="assets/images/crypto-icons/bitcoin-cash.png"></li>
-                                    <li><img src="assets/images/crypto-icons/dash.png"></li>
-                                    <li><img src="assets/images/crypto-icons/litecoin.png"></li>
-                                    <li><img src="assets/images/crypto-icons/ripple.png"></li>
-                                    <li><img src="assets/images/crypto-icons/zcash.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/bitcoin.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/ethereum.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/bitcoin-cash.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/dash.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/litecoin.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/ripple.png"></li>
+                                    <li><img src="./assets/images/crypto-icons/zcash.png"></li>
+                                </ul>
+                                <ul class="icon-list fiat-currency-icons">
+                                    <li><img src="./assets/images/fiat-icons/dollar-currency-symbol.png"></li>
+                                    <li><img src="./assets/images/fiat-icons/euro-currency-symbol.png"></li>
+                                    <li><img src="./assets/images/fiat-icons/pound-symbol-variant.png"></li>
+                                    <li><img src="./assets/images/fiat-icons/switzerland-franc.png"></li>
                                 </ul>
                             </div>
                         </div>
@@ -273,7 +281,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="signin-modal" class="modal">
                 <div class="modal-content">
                     <span class="eight-close">&times;</span>
@@ -286,13 +293,53 @@
                               action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
                               class="email-octopus-form">
                             <div class="email-octopus-form-row">
-                                <label for="field_1" style="color: #182848">Your Email address</label>
-                                <input id="field_1" name="embedded_form_subscription[field_1]" type="email"
+                                <label for="field_0" style="color: #182848">Your Email address</label>
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="email"
                                        placeholder="">
                             </div>
                             <div class="email-octopus-form-row-consent">
-                                <input type="checkbox" id="consent2" name="consent2">
-                                <label for="consent2" style="color: #182848">I would like to receive DiscoverBlockchain
+                                <input type="checkbox" id="consent" name="consent2">
+                                <label for="consent" style="color: #182848">I would like to receive DiscoverBlockchain
+                                    weekly news and updates via email.</label>
+                            </div>
+                            <div class="email-octopus-form-row-hp" aria-hidden="true">
+                                <!-- Do not remove this field, otherwise you risk bot sign-ups -->
+                                <input type="text" name="hpf0e47811-5ac4-11e8-a3c9-06b79b628af2"
+                                       tabindex="-1"
+                                       autocomplete="nope">
+                            </div>
+                            <div class="email-octopus-form-row-subscribe">
+                                <input type="hidden"
+                                       name="successRedirectUrl"
+                                       value="">
+                                <button type="submit"
+                                        style="color: #fff;font-weight: 500;background: none; border-radius: 4px;background-color: #182848;border: 2px solid #182848;">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="join-whitelist-modal" class="modal">
+                <div class="modal-content">
+                    <span class="ninth-close">&times;</span>
+                    <h3>Joining the whitelist will be available soon!</h3>
+                    <p>Subscribe for our news, updates and notifications by clicking on our Subscribe button.</p>
+                    <div class="email-octopus-form-wrapper">
+                        <p class="email-octopus-success-message" style="color: #182848;font-size: 25px;"></p>
+                        <p class="email-octopus-error-message" style="color: #FF0000;font-size: 25px;"></p>
+                        <form method="post"
+                              action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
+                              class="email-octopus-form">
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">Your Email address</label>
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="email"
+                                       placeholder="">
+                            </div>
+                            <div class="email-octopus-form-row-consent">
+                                <input type="checkbox" id="consent" name="consent3">
+                                <label for="consent" style="color: #182848">I would like to receive DiscoverBlockchain
                                     weekly newsletter and special offers via email.</label>
                             </div>
                             <div class="email-octopus-form-row-hp" aria-hidden="true">
@@ -568,8 +615,7 @@
                             target="_blank">Pitch Deck</a></li>
                     <li class="animated" data-animate="fadeInUp" data-delay=".0"><a href="#"
                                                                                     class="btn download-whitepaper-btn">Whitepaper
-                        Coming
-                        Soon</a></li>
+                        Coming Soon</a></li>
                 </ul>
                 <div class="gaps size-1x d-none d-md-block"></div>
                 <div class="animated" data-animate="fadeInUp" data-delay=".1">
@@ -1618,8 +1664,7 @@
                                     <div class="card-header">
                                         <h5>
                                             <a class="collapsed" data-toggle="collapse" data-target="#collapse-1-2">
-                                                What does this project need Blockchain Technology?<span
-                                                    class="plus-minus"><span class="ti ti-angle-up"></span></span>
+                                                Why does this project need Blockchain Technology?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
                                             </a>
                                         </h5>
                                     </div>
@@ -1787,7 +1832,7 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <h5>
-                                            <a data-toggle="collapse" data-target="#collapse-2-6">
+                                            <a class="collapsed" data-toggle="collapse" data-target="#collapse-2-6">
                                                 When does Crowdsale start? <span class="plus-minus"><span
                                                     class="ti ti-angle-up"></span></span>
                                             </a>
@@ -1795,11 +1840,11 @@
                                     </div>
                                     <div id="collapse-2-6" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
-                                            <p>First stage of the Crowdsale will start on July 1st (Private
+                                            <p>First stage of the Crowdsale will start on July 15th (Private
                                                 Pre-Sale)<br>
-                                                Next stage of the Crowdsale will start on July 15th (Public
+                                                Next stage of the Crowdsale will start on August 1st (Public
                                                 Pre-Sale)<br>
-                                                Main Public Crowdsale will start on August 1st.
+                                                Main Public Crowdsale will start on August 16th.
                                             </p>
                                         </div>
                                     </div>
@@ -1858,7 +1903,7 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <h5>
-                                            <a data-toggle="collapse" data-target="#collapse-2-10">
+                                            <a class="collapsed" data-toggle="collapse" data-target="#collapse-2-10">
                                                 How long does it take to get KYC verified? <span
                                                     class="plus-minus"><span class="ti ti-angle-up"></span></span>
                                             </a>
@@ -2189,9 +2234,11 @@
             </div>
             <div class="row text-center">
                 <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
-                    <a class="twitter-timeline" data-width="320"
-                       href="https://twitter.com/d_blockchain?ref_src=twsrc%5Etfw">Tweets by d_blockchain</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div style="overflow-y: scroll;height: 500px;">
+                        <a class="twitter-timeline" data-width="320"
+                           href="https://twitter.com/d_blockchain?ref_src=twsrc%5Etfw">Tweets by d_blockchain</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
                     <div class="fb-page" data-href="https://www.facebook.com/discoverblockchain/" data-tabs="timeline"
@@ -2230,23 +2277,23 @@
                 </ul>
             </div><!-- .col  -->
             <div class="col-lg-5">
-                <form id="contact-form" class="form-message text-left" action="./assets/form/contact.php" method="post">
+                <form name="contactform" method="post" action="https://formspree.io/contact@discoverblockchain.io" id="contact-form" class="form-message text-left">
                     <div class="form-results"></div>
                     <div class="input-field">
-                        <input name="contact-name" type="text" class="input-line required">
+                        <input name="name" id="name" type="text" class="input-line required">
                         <label class="input-title">Your Name</label>
                     </div>
                     <div class="input-field">
-                        <input name="contact-email" type="email" class="input-line required email">
+                        <input name="email" id="email" type="email" class="input-line required email">
                         <label class="input-title">Your Email</label>
                     </div>
                     <div class="input-field">
-                        <textarea name="contact-message" class="txtarea input-line required"></textarea>
+                        <textarea name="message" id="message" class="txtarea input-line required"></textarea>
                         <label class="input-title">Your Message</label>
                     </div>
                     <input type="text" class="d-none" name="form-anti-honeypot" value="">
                     <div class="input-field">
-                        <button type="submit" class="btn contact-form-btn">Submit</button>
+                        <input type="submit" name="submit" value="Submit" class="btn contact-form-btn">
                     </div>
                 </form>
             </div><!-- .col  -->
@@ -2307,15 +2354,10 @@
             <!-- .col  -->
             <div class="col-sm-6 col-xl-4 res-l-bttm">
                 <div class="footer-subscription">
-                    <h6 class="animated" data-animate="fadeInUp" data-delay=".6">Subscribe to our newsleter</h6>
-                    <form id="subscribe-form" action="./assets/form/subscribe.php" method="post"
-                          class="subscription-form animated" data-animate="fadeInUp" data-delay=".7">
-                        <input type="text" name="youremail" class="input-round required email"
-                               placeholder="Enter your email">
-                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
-                        <button type="submit" class="btn btn-plane">Subscribe</button>
-                        <div class="subscribe-results"></div>
-                    </form>
+                    <div class="animated" data-animate="fadeInUp" data-delay=".1">
+                        <a href="https://t.me/joinchat/HuZYrxIPhIZLWP-PWQHHWA" class="btn btn-simple telegram-footer-btn" target="_blank"> <em
+                                class="fa fa-paper-plane"></em> Join us on Telegram</a>
+                    </div>
                 </div>
             </div>
             <!-- .col  -->
@@ -2388,5 +2430,7 @@
 <script src="./assets/js/jquery.bundle.js?ver=111"></script>
 <script src="./assets/js/script.js?ver=111"></script>
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1526650694"></script>
+<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1527184850"></script>
+<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1527184850"></script>
 </body>
 </html>

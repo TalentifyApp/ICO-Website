@@ -385,7 +385,7 @@ a:hover, a:focus, a:active {
 
 .fourth-section p {
     color: #182848 !important;
-    text-align: left;
+    text-align: center;
 }
 
 .fifth-section {
@@ -835,6 +835,14 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 
     .modal-content {
         width: 90% !important;
+    }
+
+    .lead.color-secondary.animated.fadeInUp {
+        letter-spacing: initial !important;
+    }
+
+    .fb_iframe_widget {
+        padding-top: 80px !important;
     }
 }
 
@@ -3102,6 +3110,7 @@ select:focus {
     position: relative;
     z-index: 3;
     margin: 0 -80px 0 -30px;
+    margin-top: -400px;
 }
 
 .header-image-icon {
@@ -4345,7 +4354,7 @@ select:focus {
 .io-azure .countdown-box .btn.btn-alt:before {
     -ms-border-radius: 19px;
     border-radius: 19px;
-   /* background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); */
+    /* background-image: linear-gradient(to right, #0d9ee0 0%, #340075 100%); */
 }
 
 .countdown-box h6 {
@@ -4400,9 +4409,35 @@ select:focus {
 }
 
 .icon-list li img {
-    height: 32px;
-    width:32px;
+    height: 25px;
+    width: 25px;
     object-fit: contain;
+}
+
+.payment-options-text {
+    padding-top: 10px;
+}
+
+.icon-list {
+    margin-top: 5px !important;
+}
+
+.fiat-currency-icons li img {
+    height: 33px;
+    width: 32px;
+    margin-top: -3px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.fiat-currency-icons li img:last-child {
+    width: 50px;
+    height: 31px;
+    margin-top: -2px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .countdown-box .icon-list li .fa {
@@ -7649,7 +7684,7 @@ select:focus {
     margin-top: 70px;
     margin-bottom: 70px;
     height: 60%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .modal-content h3 {
@@ -7666,6 +7701,10 @@ select:focus {
     text-align: center;
 }
 
+#join-whitelist-modal .modal-content {
+    text-align: center;
+}
+
 /* The Close Button */
 .first-close,
 .second-close,
@@ -7674,7 +7713,8 @@ select:focus {
 .fifth-close,
 .sixth-close,
 .seventh-close,
-.eight-close {
+.eight-close,
+.ninth-close {
     color: #415EA0;
     text-align: right;
     font-size: 40px;
@@ -7706,7 +7746,8 @@ select:focus {
 #fifth-modal,
 #sixth-modal,
 #signup-modal,
-#signin-modal {
+#signin-modal,
+#join-whitelist-modal {
     z-index: 999;
 }
 
@@ -7827,6 +7868,9 @@ select:focus {
     border-radius: 4px !important;
 }
 
+.telegram-footer-btn em  {
+    color: #fff !important;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
