@@ -7905,9 +7905,9 @@ select:focus {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -13px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #182848;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -7953,7 +7953,7 @@ select:focus {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-    left: -16px;
+    left: -12px;
 }
 
 /* The actual content */
@@ -7976,6 +7976,10 @@ select:focus {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
+    }
+
+    .container-timeline {
+        width: 100% !important;
     }
 
     /* Make sure that all arrows are pointing leftwards */
