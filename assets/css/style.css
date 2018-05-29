@@ -7971,13 +7971,6 @@ select:focus {
         left: 31px;
     }
 
-    /* Full-width containers */
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
     .container-timeline {
         width: 100% !important;
     }
