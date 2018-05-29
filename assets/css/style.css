@@ -3933,7 +3933,7 @@ select:focus {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #182949 0%, #4b6cb7 100%) !important;
     transition: all .5s ease;
 }
 
@@ -3968,7 +3968,7 @@ select:focus {
     top: 50%;
     left: calc(50% + 2px);
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+    background-image: linear-gradient(to right, #182949 0%, #4b6cb7 100%) !important;
 }
 
 .play-btn .play > span:before, .play-btn .play > span:after {
