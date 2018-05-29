@@ -7868,6 +7868,10 @@ select:focus {
     border-radius: 4px !important;
 }
 
+.token-sale-text {
+    text-align: left;
+}
+
 .telegram-footer-btn em  {
     color: #fff !important;
 }
