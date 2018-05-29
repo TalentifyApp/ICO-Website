@@ -3866,7 +3866,7 @@ select:focus {
 }
 
 .play-btn:hover {
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .play-btn-alt {
@@ -3957,7 +3957,7 @@ select:focus {
     left: -8px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.35);
-    animation: 1s ease 0s normal none infinite running playbutton;
+    /* animation: 1s ease 0s normal none infinite running playbutton; */
 }
 
 .play-btn .play > span {
@@ -7870,6 +7870,12 @@ select:focus {
 
 .token-sale-text {
     text-align: left;
+}
+
+.discoverblockchain-video {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 40px;
 }
 
 .telegram-footer-btn em  {
