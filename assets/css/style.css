@@ -7882,6 +7882,11 @@ select:focus {
     color: #fff !important;
 }
 
+.mfp-iframe-scaler iframe {
+    box-shadow: none;
+    background: transparent;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
