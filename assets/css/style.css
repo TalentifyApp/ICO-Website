@@ -3750,6 +3750,10 @@ select:focus {
     background: #fff !important;
 }
 
+.header-wp-btn:hover {
+    color: #7CE7F2 !important;
+}
+
 .whitepaper-btn:before {
     background-image: none !important;
 }
