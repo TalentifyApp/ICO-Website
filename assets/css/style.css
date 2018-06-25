@@ -5433,6 +5433,22 @@ select:focus {
     margin-bottom: 30px;
 }
 
+.partner-list .single-partner.first-partner {
+    margin-top: 20px;
+}
+
+.partner-list .single-partner.third-partner {
+    margin-top: 20px;
+}
+
+.partner-list .single-partner.sixth-partner {
+    margin-top: 10px;
+}
+
+.partner-list .single-partner.last-partner {
+    margin-top: 20px;
+}
+
 .partner-list-s2 {
     width: 100%;
     margin-top: 20px;
