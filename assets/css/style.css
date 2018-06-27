@@ -4608,6 +4608,28 @@ select:focus {
     .countdown-box .token-countdown .countdown-text {
         font-size: 9px;
     }
+
+    .token-sale-text {
+        padding: 0 10px;
+    }
+
+    .token-details-text p {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .token-details-text p span {
+        font-size: 20px;
+    }
+
+    .crowdsale-details-text p {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .crowdsale-details-text p span {
+        font-size: 20px;
+    }
 }
 
 .single-chart h2, .single-chart h3, .single-chart h4 {
