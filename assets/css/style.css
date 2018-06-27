@@ -4316,6 +4316,48 @@ select:focus {
     left: 0;
 }
 
+.token-details-text h6 {
+    color: white;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.token-details-text p {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.token-details-text p span {
+    color: white !important;
+    font-size: 22px;
+}
+
+.crowdsale-details-text h6 {
+    color: white;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.crowdsale-details-text p {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.crowdsale-details-text p span {
+    color: white !important;
+    font-size: 22px;
+}
+
+.token-details {
+    font-weight: 700;
+}
+
+.currencies {
+    width: 47%;
+}
+
 .event-info h6 {
     margin-bottom: 2px;
 }
@@ -7897,6 +7939,8 @@ select:focus {
 
 .token-sale-text {
     text-align: left;
+    font-size: 12px;
+    padding-top: 30px;
 }
 
 .discoverblockchain-video {
