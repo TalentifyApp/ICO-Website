@@ -7811,6 +7811,8 @@ select:focus {
 
 .ecosystem-image {
     max-width: 140%;
+    margin: 0 auto;
+    display: table;
 }
 
 #news {
