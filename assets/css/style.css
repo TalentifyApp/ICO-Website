@@ -5489,6 +5489,10 @@ select:focus {
     background-image: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%);
 }
 
+.third-partner-row {
+    align-items: center;
+}
+
 .partner-list {
     margin-bottom: -30px;
 }
