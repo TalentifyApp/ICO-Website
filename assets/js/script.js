@@ -514,7 +514,7 @@ var btn5 = document.getElementById("fifth-button");
 var btn6 = document.getElementById("sixth-button");
 var signupBtn = document.getElementById('signupBtn');
 var signinBtn = document.getElementById('signinBtn');
-var joinWhitelistBtn = document.getElementById('joinWhitelistBtn');
+var joinWhitelistBtn = document.getElementById('joinWhitelistBtn2');
 
 // Get the <span> element that closes the modal
 var span1 = document.getElementsByClassName("first-close")[0];
