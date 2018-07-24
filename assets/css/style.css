@@ -811,6 +811,10 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     .countdown-box.countdown-header {
         margin: 0 auto;
     }
+
+    .whitelist-container iframe {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -7877,6 +7881,13 @@ select:focus {
     padding-bottom: 80px;
 }
 
+.whitelist-container {
+    display: table;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
 .section-token-charts {
     padding-top: 80px;
 }
@@ -7979,7 +7990,7 @@ select:focus {
     margin-bottom: 40px;
 }
 
-.telegram-footer-btn em  {
+.telegram-footer-btn em {
     color: #fff !important;
 }
 
