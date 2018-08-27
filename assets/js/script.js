@@ -506,75 +506,23 @@ var signin = document.getElementById('signin-modal');
 var joinWhitelistModal = document.getElementById('join-whitelist-modal');
 
 // Get the button that opens the modal
-var btn1 = document.getElementById("first-button");
-var btn2 = document.getElementById("second-button");
-var btn3 = document.getElementById("third-button");
-var btn4 = document.getElementById("fourth-button");
-var btn5 = document.getElementById("fifth-button");
-var btn6 = document.getElementById("sixth-button");
 var signupBtn = document.getElementById('signupBtn');
 var signinBtn = document.getElementById('signinBtn');
-var joinWhitelistBtn = document.getElementById('joinWhitelistBtn2');
 
 // Get the <span> element that closes the modal
-var span1 = document.getElementsByClassName("first-close")[0];
-var span2 = document.getElementsByClassName("second-close")[0];
-var span3 = document.getElementsByClassName("third-close")[0];
-var span4 = document.getElementsByClassName("fourth-close")[0];
-var span5 = document.getElementsByClassName("fifth-close")[0];
-var span6 = document.getElementsByClassName("sixth-close")[0];
 var span7 = document.getElementsByClassName("seventh-close")[0];
 var span8 = document.getElementsByClassName("eight-close")[0];
 var span9 = document.getElementsByClassName("ninth-close")[0];
 
-// When the user clicks the button, open the modal 
-btn1.onclick = function () {
-    modal1.style.display = "block";
-};
-btn2.onclick = function () {
-    modal2.style.display = "block";
-};
-btn3.onclick = function () {
-    modal3.style.display = "block";
-}
-btn4.onclick = function () {
-    modal4.style.display = "block";
-}
-btn5.onclick = function () {
-    modal5.style.display = "block";
-}
-btn6.onclick = function () {
-    modal6.style.display = "block";
-}
+// When the user clicks the button, open the modal
+
 signupBtn.onclick = function () {
     signup.style.display = "block";
 }
 signinBtn.onclick = function () {
     signin.style.display = "block";
 }
-joinWhitelistBtn.onclick = function() {
-    joinWhitelistModal.style.display = "block";
-}
 
-// When the user clicks on <span> (x), close the modal
-span1.onclick = function () {
-    modal1.style.display = "none";
-}
-span2.onclick = function () {
-    modal2.style.display = "none";
-}
-span3.onclick = function () {
-    modal3.style.display = "none";
-}
-span4.onclick = function () {
-    modal4.style.display = "none";
-}
-span5.onclick = function () {
-    modal5.style.display = "none";
-}
-span6.onclick = function () {
-    modal6.style.display = "none";
-}
 span7.onclick = function () {
     signup.style.display = "none";
 }
